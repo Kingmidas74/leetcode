@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"githib.com/kingmidas74/leetcode/internal/problem_0001_two_sums"
+	"github.com/kingmidas74/leetcode/internal/problem_0001_two_sums"
 )
 
 /*
