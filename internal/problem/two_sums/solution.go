@@ -1,9 +1,6 @@
-package problem_0001_two_sums
+package two_sums
 
-/*
-Solve
-Description: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-*/
+// Solve for https://leetcode.com/problems/two-sum/
 func (s *Solution) Solve(nums []int, target int) []int {
 	for i, n1 := range nums {
 		t := target - n1

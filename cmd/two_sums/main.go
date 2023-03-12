@@ -2,15 +2,11 @@ package main
 
 import (
 	"fmt"
+	"github.com/kingmidas74/leetcode/internal/problem/two_sums"
 	"os"
 	"strconv"
-
-	"github.com/kingmidas74/leetcode/internal/problem_0001_two_sums"
 )
 
-/*
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-*/
 func main() {
 	if len(os.Args) < 4 {
 		panic("Not enough arguments")
@@ -29,7 +25,7 @@ func main() {
 		}
 	}
 
-	sol := problem_0001_two_sums.New()
+	sol := two_sums.New()
 	result := sol.Solve(nums, requiredSum)
 
 	for _, num := range result {

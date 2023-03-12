@@ -1,4 +1,4 @@
-package problem_0001_two_sums
+package two_sums
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package problem_0001_two_sums
+package add_two_numbers
 
 type Solution struct {
 }
