@@ -22,6 +22,13 @@ func Test_Solve(t *testing.T) {
 			input:    []string{"1", "1", "1", "1", "0", "1", "1", "0", "1", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0"},
 			rowCount: 4,
 			colCount: 5,
+			want:     1,
+			wantErr:  assert.NoError,
+		},
+		{
+			input:    []string{"1", "1", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "1", "1"},
+			rowCount: 4,
+			colCount: 5,
 			want:     3,
 			wantErr:  assert.NoError,
 		},
