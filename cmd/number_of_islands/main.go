@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/kingmidas74/leetcode/internal/problem/number_of_islands"
 	"os"
 	"strconv"
+
+	"github.com/kingmidas74/leetcode/internal/problem/number_of_islands"
 )
 
 func main() {
