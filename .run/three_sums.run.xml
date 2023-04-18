@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="three_sums" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="leetcode" />
+    <working_directory value="$PROJECT_DIR$" />
+    <parameters value="0 -1 0 1 2 -1 -4" />
+    <kind value="PACKAGE" />
+    <package value="github.com/kingmidas74/leetcode/cmd/three_sums" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
